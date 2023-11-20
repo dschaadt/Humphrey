@@ -33,6 +33,8 @@ pub enum MimeType {
     ApplicationPdf,
     /// The `application/zip` MIME type.
     ApplicationZip,
+    /// The `application/wasm` MIME type.
+    ApplicationWasm,
     /// The `video/mp4` MIME type.
     VideoMp4,
     /// The `video/ogg` MIME type.
@@ -107,6 +109,7 @@ impl ToString for MimeType {
             MimeType::ApplicationJson => "application/json",
             MimeType::ApplicationPdf => "application/pdf",
             MimeType::ApplicationZip => "application/zip",
+            MimeType::ApplicationWasm => "application/wasm",
             MimeType::VideoMp4 => "video/mp4",
             MimeType::VideoOgg => "video/ogg",
             MimeType::VideoWebm => "video/webm",
