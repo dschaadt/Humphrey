@@ -73,6 +73,7 @@ impl MimeType {
             "json" => MimeType::ApplicationJson,
             "pdf" => MimeType::ApplicationPdf,
             "zip" => MimeType::ApplicationZip,
+            "wasm" => MimeType::ApplicationWasm,
             "mp4" => MimeType::VideoMp4,
             "ogv" => MimeType::VideoOgg,
             "webm" => MimeType::VideoWebm,
